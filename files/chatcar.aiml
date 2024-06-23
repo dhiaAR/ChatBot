@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Greet the user -->
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello! Welcome to Io shop! I'm the chatbot Speedo. How can I help you?</template>
+    </category>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! Welcome to Io shop! I'm the chatbot Speedo. How can I help you?</template>
+    </category>
+    
+    <!-- User mentions 'CAR' -->
+     <category>
+        <pattern>* CAR</pattern>
+        <template>Of course! What category of cars are you looking for?</template>
+    </category>
+    <category>
+        <pattern>* CAR *</pattern>
+        <template>Of course! What category of cars are you looking for?</template>
+    </category>
+    <category>
+        <pattern>CAR</pattern>
+        <template>Of course! What category of cars are you looking for?</template>
+    </category>
+    
+    <!-- Specific Car Categories -->
+    <category>
+        <pattern>SUV</pattern>
+        <template>
+            <think><set name="category">SUV</set></think>
+            SUV it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>SPORT</pattern>
+        <template>
+            <think><set name="category">Sport</set></think>
+            Sport it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>CONVERTIBLE</pattern>
+        <template>
+            <think><set name="category">Convertible</set></think>
+            Convertible it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>SMALL</pattern>
+        <template>
+            <think><set name="category">Small</set></think>
+            Small it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>STATION CAR</pattern>
+        <template>
+            <think><set name="category">Station Car</set></think>
+            Station car it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>VAN</pattern>
+        <template>
+            <think><set name="category">Van</set></think>
+            Van it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>OFF-ROAD</pattern>
+        <template>
+            <think><set name="category">Off-road</set></think>
+            Off-road it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>OFFROAD</pattern>
+        <template>
+            <think><set name="category">Off-road</set></think>
+            Off-road it is! Could you please inform me of your budget?
+        </template>
+    </category>
+    <category>
+        <pattern>OFF ROAD</pattern>
+        <template>
+            <think><set name="category">Off-road</set></think>
+            Off-road it is! Could you please inform me of your budget?
+        </template>
+    </category>
+
+    
+</aiml>

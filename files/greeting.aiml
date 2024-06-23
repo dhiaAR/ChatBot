@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+     <pattern>HI</pattern>
+    <template>Hello! , welcome to Io shop! I'm the chatbot Speedo. how can I help you ?</template>
+</category>
+	<category>
+     <pattern>HELLO</pattern>
+    <template>Hello! , welcome to Io shop! I'm the chatbot Speedo. how can I help you ?</template>
+</category>
+	<category>
+     <pattern>* car*</pattern>
+    <template>Of course! what category of cars are you looking for ?</template>
+</category>
+	<category>
+     <pattern>car</pattern>
+    <template>Of course! what category of cars are you looking for ?</template>
+</category>
+<category>
+     <pattern>SUV</pattern>
+    <template>SUV it is ! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>SPORT</pattern>
+    <template>Sport it is ! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>CONVERTIBLE</pattern>
+    <template>Convertible it is ! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>SMALL</pattern>
+    <template>Small it is! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>STATION CAR</pattern>
+    <template>Station car it is! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>VAN</pattern>
+    <template>VAN it is! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>OFF-ROAD</pattern>
+    <template>Off-road it is! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>OFFROAD</pattern>
+    <template>Off-road it is! could you please in form me with your budget ?</template>
+</category>
+<category>
+     <pattern>OFF ROAD</pattern>
+    <template>Off-road it is! could you please in form me with your budget ?</template>
+</category>
+
+
+
+</aiml>

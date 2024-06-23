@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>hi</pattern>
-    <template>Hello. Welcom to Io Shop. Im speedo your chatbot assistant how can I help you ?</template>
-  </category>
+  
 
 <category>
-    <pattern></pattern>
+    I want to buy a car<pattern></pattern>
     <template></template>
 </category>
+
 </aiml>
